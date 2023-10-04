@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CubeSuite">
+	<listeners>
+        <listener class-name="com.cubesitetest.CubeWebSiteTestingDB.CustomTestNGListener" />
+    </listeners>
+  <test thread-count="5" name="TestSele">
+	  <classes>
+		  <class name="com.cubesitetest.CubeWebSiteTesting.SampleSelTest1"></class>
+	  </classes>
+  </test> <!-- TestSele -->
+  
+  <test thread-count="5" name="TestSele2">
+	  <classes>
+		  <class name="com.cubesitetest.CubeWebSiteTesting.SampleSelTest2"></class>
+	  </classes>
+  </test> <!-- TestSele -->
+  
+  <test thread-count="5" name="TestSele3">
+	  <classes>
+		  <class name="com.cubesitetest.CubeWebSiteTesting.SampleSelTest3"></class>
+	  </classes>
+  </test> <!-- TestSele -->
+  
+</suite> <!-- Suite -->
